@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <div class="navlogo border">
+            <div class="logo"></div>
+        </div>
+
+        <div class="nav-address">
+              <p style="font-size: small">Deliver to </p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>India</p>
+            </div>
+
+        </div>
+
+
+        <div class="navsearch">
+              <select class="search-select">
+                <option>All</option>
+              </select>
+              <input placeholder="Search Instant Shop" class="search-input">
+            <div class="searchicon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="navcart">
+          <p>
+        <i class="fa-solid fa-cart-shopping " id="cart-icon"></i>
+        <b>cart</b></p>
+    </div>
+
+    
+    <div class="return">
+      <a href="logout.php" class="btn">logout</a>
+</div>
+        </div>
+      </header>
+        <!--Cart-->
+        <div class="cart">
+            <h2 class="cart-title">
+                Your Cart</h2>
+              <div class="cart-content">
+                
+              </div>
+              <!--total-->
+              <div class="total">
+                <div class="total-title"><b>Total</b></div>
+                    <div class="total-price">Rs 0</div>
+                </div>
+              <!--buy button-->
+              <button type="button" class="btn-buy">Buy Now</button>
+            <!-- cart close-->
+            <i class="fa-solid fa-xmark" id="close-cart"></i>
+        </div>
+         
+    </div>
+     
+        
+      <div class="shop-section">
+
+        <div class="box1 box">
+              <div class="box-content">
+                  <h2 class="product-title">Tresemme Shampoo</h2> 
+                  <img src="pfood.jpg"  alt="" class="product-img">
+                  <span class="price">Rs 100</span>
+                  
+                  <i class="fa-solid fa-bag-shopping add-cart"  ></i>
+           </div>       
+        </div>
+
+
+         <div class="box2 box">
+              <div class="box-content">
+                  <h2 class="product-title">Skin Shampoo</h2> 
+                
+                  <img src="pshamp.jpg" alt="" class="product-img">
+                  <span class="price">Rs 150</span>
+                  <i class="fa-solid fa-bag-shopping  add-cart"></i>
+              </div>
+          </div>
+
+
+         <div class="box3 box">
+              <div class="box-content">
+              <h2 class="product-title">Dove Soap</h2> 
+           
+              <img src="pfood1.png" alt="" class="product-img">
+              <span class="price">Rs 30</span>
+                  <i class="fa-solid fa-bag-shopping  add-cart"></i>
+              </div>
+        </div>
+
+
+         <div class="box4 box">
+              <div class="box-content">
+              <h2 class="product-title">Santoor Soap</h2> 
+              
+              <img src="psoap.jpg" alt="" class="product-img">
+              <span class="price">Rs 25</span>
+                  <i class="fa-solid fa-bag-shopping  add-cart"></i>
+              </div>
+          </div>
+
+          <div class="box1 box">
+            <div class="box-content">
+                <h2 class="product-title">Colgate</h2> 
+            
+                <img src="psoap1.jpg" alt="" class="product-img">
+                <span class="price">Rs 40</span>
+                <i class="fa-solid fa-bag-shopping  add-cart"></i>
+             </div>
+      </div>
+
+
+       <div class="box2 box">
+            <div class="box-content">
+                <h2 class="product-title">Pepsodent</h2> 
+            
+                <img src="pwipes.webp" alt="" class="product-img">
+                <span class="price">Rs 50</span>
+                <i class="fa-solid fa-bag-shopping  add-cart"></i>
+            </div>
+        </div>
+
+
+       <div class="box3 box">
+            <div class="box-content">
+            <h2 class="product-title">Ponds</h2> 
+           
+            <img src="pbowl.jpg" class="product-img">
+            <span class="price">Rs 60</span>
+                  <i class="fa-solid fa-bag-shopping  add-cart"></i>
+            </div>
+        </div>
+
+
+       <div class="box4 box">
+            <div class="box-content">
+            <h2 class="product-title">Lakme</h2> 
+    
+            <img src="pfish.webp" alt="" class="product-img">
+            <span class="price">Rs 65</span>
+            <i class="fa-solid fa-bag-shopping  add-cart"></i>
+            </div>
+        </div>
+
+      </div>  
+    <footer>
+      <div class="foot-panel1">
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>  
+        <!--link to js-->
+        <script src="main.js"></script>
+</body>
+</html>
